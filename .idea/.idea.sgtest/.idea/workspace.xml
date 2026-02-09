@@ -5,1366 +5,128 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a262cdb-324f-480c-bbf8-f7b7ad7ac488" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.sgtest/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/.idea.sgtest/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.sgtest/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/_License.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/_License.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/bear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/bear.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/buffalo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/buffalo.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/chick.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/chick.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/chicken.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/chicken.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/cow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/cow.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/crocodile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/crocodile.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/dog.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/dog.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/duck.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/duck.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/elephant.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/elephant.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/frog.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/frog.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/giraffe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/giraffe.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/goat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/goat.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/gorilla.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/gorilla.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/hippo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/hippo.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/horse.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/horse.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/monkey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/monkey.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/moose.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/moose.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/narwhal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/narwhal.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/owl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/owl.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/panda.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/panda.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/parrot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/parrot.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/penguin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/penguin.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/pig.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/pig.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/rabbit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/rabbit.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/rhino.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/rhino.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/sloth.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/sloth.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/snake.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/snake.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/walrus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/walrus.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/whale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/whale.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/zebra.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Animals/zebra.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/Bonnie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/Bonnie.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/Particles.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/Particles.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/TV.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/TV.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/_License.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/_License.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/argus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/argus.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/armadillo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/armadillo.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/bat_little.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/bat_little.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/bobo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/bobo.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/brad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/brad.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/brad_bio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/brad_bio.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/buggy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/buggy.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/bunny2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/bunny2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/caterleaf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/caterleaf.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/cloudy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/cloudy.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/dragon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/dragon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/dustpixy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/dustpixy.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/eduardo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/eduardo.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/furfur.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/furfur.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/ghost.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/ghost.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/gili.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/gili.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/golem.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/golem.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/goon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/goon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/hulaghost.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/hulaghost.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/kingshroom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/kingshroom.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/largylintus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/largylintus.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/malandrinho.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/malandrinho.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/mecha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/mecha.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/necro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/necro.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/ninja.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/ninja.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/orc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/orc.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/piggy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/piggy.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/ptcl_aura.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/ptcl_aura.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/ptcl_aura_thndr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/ptcl_aura_thndr.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/ptcl_flame.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/ptcl_flame.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/ptcl_flare.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/ptcl_flare.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/ptcl_heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/ptcl_heart.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/ptcl_leaf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/ptcl_leaf.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/ptcl_spark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/ptcl_spark.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/rat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/rat.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/roach.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/roach.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/shadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/shadow.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/sitt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/sitt.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/skell.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/skell.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/skullwing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/skullwing.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/skullwing_baby.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/skullwing_baby.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/skullwing_ether.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/skullwing_ether.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/skullwing_fire.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/skullwing_fire.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/slimarhea.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/slimarhea.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/slime_a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/slime_a.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/slime_b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/slime_b.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/slime_blue_a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/slime_blue_a.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/slime_c.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/slime_c.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/slug.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/slug.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/snake.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/snake.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/spider_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/spider_01.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/test.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/test.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/turret.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/turret.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/turtle_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/turtle_01.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/venoth.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/venoth.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/vore.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/vore.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/worm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/worm.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/zombunny.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/zombunny.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/zumbi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Enemies/zumbi.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/FarmingCrops16x16.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/FarmingCrops16x16/Crop_Spritesheet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/FarmingCrops16x16/Crop_Spritesheet.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/FarmingCrops16x16/_License.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/FarmingCrops16x16/_License.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/C01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/C01.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/C02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/C02.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/C03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/C03.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/C04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/C04.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/C05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/C05.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/C06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/C06.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/C07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/C07.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/C08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/C08.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/C09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/C09.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/C10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/C10.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/C11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/C11.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/C12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/C12.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/C13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/C13.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/D01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/D01.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/D02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/D02.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/D03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/D03.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/D04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/D04.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/D05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/D05.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/D06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/D06.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/D07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/D07.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/D08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/D08.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/D09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/D09.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/D10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/D10.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/D11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/D11.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/D12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/D12.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/D13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/D13.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/Derivatives.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/Derivatives/blank.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/Derivatives/blank.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/Derivatives/ccg_frame.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/Derivatives/ccg_frame.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/Derivatives/ccg_frame_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/Derivatives/ccg_frame_background.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/H01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/H01.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/H02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/H02.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/H03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/H03.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/H04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/H04.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/H05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/H05.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/H06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/H06.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/H07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/H07.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/H08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/H08.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/H09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/H09.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/H10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/H10.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/H11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/H11.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/H12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/H12.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/H13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/H13.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/S01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/S01.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/S02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/S02.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/S03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/S03.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/S04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/S04.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/S05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/S05.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/S06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/S06.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/S07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/S07.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/S08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/S08.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/S09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/S09.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/S10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/S10.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/S11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/S11.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/S12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/S12.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/S13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/S13.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/_GreyWyvernReadMe.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/_GreyWyvernReadMe.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/_Licence.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/_Licence.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/back1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/back1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/back2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/back2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/back3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/back3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/back4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/back4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/back5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/back5.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/back6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/back6.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/back7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/back7.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/back8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/back8.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/back9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/back9.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/backa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/backa.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/backb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/backb.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/backc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/backc.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/backd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/backd.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/deal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/deal.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/joker1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/joker1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/joker2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/joker2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/options.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/GreyWyvernCardSet/options.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type1 Black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type1 Black.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type1 Blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type1 Blue.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type1 Green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type1 Green.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type1 Purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type1 Purple.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type1 Red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type1 Red.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type1 Yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type1 Yellow.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type2 Black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type2 Black.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type2 Blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type2 Blue.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type2 Green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type2 Green.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type2 Purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type2 Purple.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type2 Red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type2 Red.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type2 Yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type2 Yellow.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type3 Black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type3 Black.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type3 Blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type3 Blue.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type3 Green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type3 Green.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type3 Purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type3 Purple.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type3 Red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type3 Red.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type3 Yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type3 Yellow.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type4 Black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type4 Black.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type4 Blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type4 Blue.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type4 Green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type4 Green.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type4 Purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type4 Purple.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type4 Red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type4 Red.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type4 Yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/Gem Type4 Yellow.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/License.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Gems/License.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Heart.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Heart/Heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Heart/Heart.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Heart/_License.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/Heart/_License.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/ShortSword.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/ShortSword/_License.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/ShortSword/_License.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/ShortSword/short_sword.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Resource_Icons/ShortSword/short_sword.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/_License.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/_License.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/combine power.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/combine power/combine.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/combine power/combine.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/concept spellcasting.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/concept spellcasting/electricity.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/concept spellcasting/electricity.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/concept spellcasting/fire1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/concept spellcasting/fire1.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/concept spellcasting/fire2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/concept spellcasting/fire2.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/concept spellcasting/lightning1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/concept spellcasting/lightning1.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/concept spellcasting/lightning2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/concept spellcasting/lightning2.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/concept spellcasting/wind1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/concept spellcasting/wind1.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/fire bolt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/fire bolt/lvl1 fire arrows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/fire bolt/lvl1 fire arrows.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/fire bolt/lvl2 fire arrows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/fire bolt/lvl2 fire arrows.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/fire bolt/lvl3 fire arrows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/fire bolt/lvl3 fire arrows.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/ice shards.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/ice shards/ice shards.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/ice shards/ice shards.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/nature (thorns).meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/nature (thorns)/thorns.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/nature (thorns)/thorns.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/finalrev.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/finalrev.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev1.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev10.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev11.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev12.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev13.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev14.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev15.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev16.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev17.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev18.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev19.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev2.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev20.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev21.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev22.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev23.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev24.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev25.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev26.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev27.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev28.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev29.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev29.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev3.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev30.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev31.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev31.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev32.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev32.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev33.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev33.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev34.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev34.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev35.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev35.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev36.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev36.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev37.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev37.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev38.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev38.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev39.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev39.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev4.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev40.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev40.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev41.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev41.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev5.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/revive/ideas/rev6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/weapon enchant.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/weapon enchant/fire sword.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/weapon enchant/fire sword.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/weapon enchant/ice sword.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/weapon enchant/ice sword.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/weapon enchant/lightning sword.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Spell_Icons/weapon enchant/lightning sword.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/CardBack.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/CardBack.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Cups01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Cups01.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Cups02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Cups02.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Cups03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Cups03.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Cups12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Cups12.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Cups13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Cups13.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Cups14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Cups14.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Pents01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Pents01.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Pents02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Pents02.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Pents03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Pents03.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Pents04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Pents04.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Pents05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Pents05.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/RWS_Tarot_07_Chariot.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/RWS_Tarot_07_Chariot.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/RWS_Tarot_08_Strength.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/RWS_Tarot_08_Strength.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/RWS_Tarot_09_Hermit.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/RWS_Tarot_09_Hermit.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/RWS_Tarot_10_Wheel_of_Fortune.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/RWS_Tarot_10_Wheel_of_Fortune.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/RWS_Tarot_11_Justice.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/RWS_Tarot_11_Justice.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/RWS_Tarot_12_Hanged_Man.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/RWS_Tarot_12_Hanged_Man.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/RWS_Tarot_13_Death.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/RWS_Tarot_13_Death.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/RWS_Tarot_14_Temperance.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/RWS_Tarot_14_Temperance.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/RWS_Tarot_15_Devil.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/RWS_Tarot_15_Devil.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/RWS_Tarot_16_Tower.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/RWS_Tarot_16_Tower.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/RWS_Tarot_17_Star.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/RWS_Tarot_17_Star.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/RWS_Tarot_18_Moon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/RWS_Tarot_18_Moon.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/RWS_Tarot_19_Sun.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/RWS_Tarot_19_Sun.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/RWS_Tarot_20_Judgement.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/RWS_Tarot_20_Judgement.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/RWS_Tarot_21_World.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/RWS_Tarot_21_World.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Swords01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Swords01.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Swords02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Swords02.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Swords03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Swords03.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Swords04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Swords04.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Swords05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Swords05.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Swords06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Swords06.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Swords07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Swords07.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Swords08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Swords08.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Swords09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Swords09.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Swords11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Swords11.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Swords12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Swords12.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Swords13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Swords13.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Swords14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Swords14.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Wands01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Wands01.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Wands02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Wands02.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Wands03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Wands03.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Wands04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Wands04.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Wands05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Wands05.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Wands06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Wands06.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Wands07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Wands07.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Wands08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Wands08.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Wands09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Wands09.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Wands10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Wands10.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Wands11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Wands11.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Wands12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Wands12.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Wands13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Wands13.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Wands14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/Wands14.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/_License.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Tarot/_License.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/Derivatives.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/Derivatives/JewelFrame.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/Derivatives/JewelFrame.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/Derivatives/buttonRound_noshadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/Derivatives/buttonRound_noshadow.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/Derivatives/shinyButton.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/Derivatives/shinyButton.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/Derivatives/shinyButton_pressed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/Derivatives/shinyButton_pressed.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/_License.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/_License.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/arrowBeige_left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/arrowBeige_left.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/arrowBeige_right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/arrowBeige_right.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/arrowBlue_left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/arrowBlue_left.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/arrowBlue_right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/arrowBlue_right.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/arrowBrown_left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/arrowBrown_left.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/arrowBrown_right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/arrowBrown_right.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/arrowSilver_left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/arrowSilver_left.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/arrowSilver_right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/arrowSilver_right.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barBack_horizontalLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barBack_horizontalLeft.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barBack_horizontalMid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barBack_horizontalMid.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barBack_horizontalRight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barBack_horizontalRight.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barBack_verticalBottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barBack_verticalBottom.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barBack_verticalMid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barBack_verticalMid.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barBack_verticalTop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barBack_verticalTop.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barBlue_horizontalBlue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barBlue_horizontalBlue.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barBlue_horizontalLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barBlue_horizontalLeft.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barBlue_horizontalRight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barBlue_horizontalRight.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barBlue_verticalBottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barBlue_verticalBottom.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barBlue_verticalMid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barBlue_verticalMid.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barBlue_verticalTop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barBlue_verticalTop.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barGreen_horizontalLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barGreen_horizontalLeft.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barGreen_horizontalMid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barGreen_horizontalMid.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barGreen_horizontalRight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barGreen_horizontalRight.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barGreen_verticalBottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barGreen_verticalBottom.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barGreen_verticalMid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barGreen_verticalMid.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barGreen_verticalTop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barGreen_verticalTop.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barRed_horizontalLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barRed_horizontalLeft.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barRed_horizontalMid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barRed_horizontalMid.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barRed_horizontalRight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barRed_horizontalRight.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barRed_verticalBottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barRed_verticalBottom.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barRed_verticalMid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barRed_verticalMid.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barRed_verticalTop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barRed_verticalTop.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barYellow_horizontalLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barYellow_horizontalLeft.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barYellow_horizontalMid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barYellow_horizontalMid.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barYellow_horizontalRight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barYellow_horizontalRight.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barYellow_verticalBottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barYellow_verticalBottom.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barYellow_verticalMid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barYellow_verticalMid.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barYellow_verticalTop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/barYellow_verticalTop.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/buttonLong_beige.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/buttonLong_beige.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/buttonLong_beige_pressed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/buttonLong_beige_pressed.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/buttonLong_blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/buttonLong_blue.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/buttonLong_blue_pressed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/buttonLong_blue_pressed.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/buttonLong_brown.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/buttonLong_brown.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/buttonLong_brown_pressed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/buttonLong_brown_pressed.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/buttonLong_grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/buttonLong_grey.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/buttonLong_grey_pressed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/buttonLong_grey_pressed.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/buttonRound_beige.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/buttonRound_beige.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/buttonRound_blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/buttonRound_blue.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/buttonRound_brown.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/buttonRound_brown.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/buttonRound_grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/buttonRound_grey.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/buttonSquare_beige.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/buttonSquare_beige.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/buttonSquare_beige_pressed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/buttonSquare_beige_pressed.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/buttonSquare_blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/buttonSquare_blue.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/buttonSquare_blue_pressed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/buttonSquare_blue_pressed.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/buttonSquare_brown.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/buttonSquare_brown.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/buttonSquare_brown_pressed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/buttonSquare_brown_pressed.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/buttonSquare_grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/buttonSquare_grey.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/buttonSquare_grey_pressed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/buttonSquare_grey_pressed.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/cursorGauntlet_blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/cursorGauntlet_blue.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/cursorGauntlet_bronze.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/cursorGauntlet_bronze.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/cursorGauntlet_grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/cursorGauntlet_grey.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/cursorHand_beige.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/cursorHand_beige.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/cursorHand_blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/cursorHand_blue.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/cursorHand_grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/cursorHand_grey.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/cursorSword_bronze.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/cursorSword_bronze.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/cursorSword_gold.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/cursorSword_gold.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/cursorSword_silver.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/cursorSword_silver.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/iconCheck_beige.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/iconCheck_beige.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/iconCheck_blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/iconCheck_blue.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/iconCheck_bronze.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/iconCheck_bronze.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/iconCheck_grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/iconCheck_grey.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/iconCircle_beige.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/iconCircle_beige.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/iconCircle_blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/iconCircle_blue.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/iconCircle_brown.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/iconCircle_brown.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/iconCircle_grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/iconCircle_grey.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/iconCross_beige.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/iconCross_beige.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/iconCross_blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/iconCross_blue.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/iconCross_brown.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/iconCross_brown.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/iconCross_grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/iconCross_grey.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/panelInset_beige.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/panelInset_beige.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/panelInset_beigeLight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/panelInset_beigeLight.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/panelInset_blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/panelInset_blue.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/panelInset_brown.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/panelInset_brown.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/panel_beige.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/panel_beige.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/panel_beigeLight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/panel_beigeLight.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/panel_blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/panel_blue.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/panel_brown.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/UI_Pack/panel_brown.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Wood Textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Wood Textures/_License.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Wood Textures/_License.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Wood Textures/wood 2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Wood Textures/wood 2.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Wood Textures/wood1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/Wood Textures/wood1.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/_License.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/_License.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/action_back.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/action_back.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/action_forward.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/action_forward.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/action_go.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/action_go.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/action_paste.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/action_paste.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/action_print.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/action_print.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/action_refresh.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/action_refresh.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/action_refresh_blue.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/action_refresh_blue.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/action_save.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/action_save.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/action_stop.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/action_stop.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/application_dreamweaver.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/application_dreamweaver.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/application_firefox.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/application_firefox.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/application_flash.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/application_flash.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/arrow_down.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/arrow_down.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/arrow_left.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/arrow_left.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/arrow_right.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/arrow_right.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/arrow_up.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/arrow_up.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/box.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/box.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/calendar.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/calendar.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/comment.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/comment.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/comment_blue.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/comment_blue.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/comment_delete.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/comment_delete.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/comment_new.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/comment_new.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/comment_yellow.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/comment_yellow.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/copy.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/copy.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/cut.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/cut.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/date.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/date.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/date_delete.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/date_delete.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/date_new.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/date_new.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/file_acrobat.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/file_acrobat.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/file_font.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/file_font.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/file_font_truetype.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/file_font_truetype.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/flag_blue.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/flag_blue.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/flag_green.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/flag_green.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/flag_orange.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/flag_orange.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/flag_red.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/flag_red.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/flag_white.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/flag_white.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/folder.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/folder.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/folder_delete.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/folder_delete.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/folder_images.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/folder_images.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/folder_lock.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/folder_lock.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/folder_new.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/folder_new.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/folder_page.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/folder_page.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_accept.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_accept.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_airmail.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_airmail.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_alert.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_alert.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_attachment.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_attachment.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_clock.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_clock.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_component.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_component.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_download.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_download.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_email.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_email.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_extension.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_extension.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_favourites.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_favourites.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_get_world.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_get_world.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_history.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_history.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_home.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_home.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_info.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_info.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_key.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_key.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_link.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_link.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_mail.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_mail.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_monitor_mac.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_monitor_mac.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_monitor_pc.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_monitor_pc.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_network.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_network.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_package.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_package.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_package_get.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_package_get.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_package_open.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_package_open.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_padlock.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_padlock.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_security.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_security.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_settings.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_settings.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_user.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_user.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_wand.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_wand.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_world.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_world.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_world_dynamic.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/icon_world_dynamic.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/image.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/image.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/image_new.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/image_new.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/interface_browser.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/interface_browser.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/interface_dialog.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/interface_dialog.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/interface_installer.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/interface_installer.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/list_comments.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/list_comments.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/list_components.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/list_components.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/list_errors.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/list_errors.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/list_extensions.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/list_extensions.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/list_images.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/list_images.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/list_keys.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/list_keys.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/list_links.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/list_links.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/list_packages.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/list_packages.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/list_security.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/list_security.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/list_settings.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/list_settings.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/list_users.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/list_users.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/list_world.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/list_world.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/note.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/note.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/note_delete.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/note_delete.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/note_new.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/note_new.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_alert.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_alert.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_attachment.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_attachment.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_bookmark.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_bookmark.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_boy.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_boy.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_code.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_code.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_colors.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_colors.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_component.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_component.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_cross.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_cross.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_delete.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_delete.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_deny.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_deny.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_down.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_down.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_dynamic.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_dynamic.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_edit.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_edit.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_extension.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_extension.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_favourites.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_favourites.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_find.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_find.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_flash.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_flash.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_girl.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_girl.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_html.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_html.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_java.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_java.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_key.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_key.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_left.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_left.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_link.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_link.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_lock.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_lock.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_new.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_new.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_next.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_next.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_package.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_package.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_php.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_php.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_prev.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_prev.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_refresh.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_refresh.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_right.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_right.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_script.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_script.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_security.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_security.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_settings.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_settings.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_sound.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_sound.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_tag_blue.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_tag_blue.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_tag_red.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_tag_red.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_text.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_text.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_text_delete.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_text_delete.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_tick.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_tick.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_tree.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_tree.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_up.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_up.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_url.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_url.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_user.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/page_user.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/table_delete.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/table_delete.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/tables.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/famfamfam_mini_icons/tables.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Construct 3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Construct 3/Pixel Platformer.c3p" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Construct 3/Pixel Platformer.c3p.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Construct 3/Readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Construct 3/Readme.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Preview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Preview.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Sample.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Sample.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tilemap.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tilemap/tilemap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0006.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0007.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0008.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0009.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0010.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0010.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0011.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0011.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0012.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0012.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0013.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0013.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0022.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0022.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0023.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0024.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0025.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0025.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0026.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0026.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0027.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0027.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0028.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0028.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0029.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0029.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0039.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0040.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0040.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0041.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0041.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0042.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0042.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0043.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0043.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0044.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0044.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0045.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0045.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0046.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0046.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0047.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0057.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0058.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0058.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0059.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0059.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0060.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0060.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0061.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0061.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0062.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Art/kenney_pixel-platformer-farm-expansion/Tiles/tile_0062.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Diamonds 7.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Diamonds 8.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Diamonds 8.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Diamonds 9.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Diamonds 9.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Hearts 1.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Hearts 1.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Hearts 10.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Hearts 10.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Hearts 11.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Hearts 11.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Hearts 12.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Hearts 12.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Hearts 13.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Hearts 13.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Hearts 2.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Hearts 2.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Hearts 3.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Hearts 3.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Hearts 4.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Hearts 4.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Hearts 5.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Hearts 5.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Hearts 6.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Hearts 6.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Hearts 7.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Hearts 7.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Hearts 8.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Hearts 8.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Hearts 9.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Hearts 9.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/PokerDeck.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/PokerDeck.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Spades 1.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Spades 1.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Spades 10.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Spades 10.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Spades 11.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Spades 11.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Spades 12.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Spades 12.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Spades 13.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Spades 13.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Spades 2.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Spades 2.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Spades 3.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Spades 3.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Spades 4.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Spades 4.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Spades 5.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Spades 5.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Spades 6.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Spades 6.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Spades 7.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Spades 7.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Spades 8.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Spades 8.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Spades 9.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scriptables/Standard/Spades 9.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scripts/PokerCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scripts/PokerCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scripts/PokerSuit.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Poker/Scripts/PokerSuit.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Prefabs/TarotCard.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Prefabs/TarotCard.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Chariot.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Chariot.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Cups 1.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Cups 1.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Cups 10.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Cups 10.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Cups 11.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Cups 11.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Cups 12.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Cups 12.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Cups 13.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Cups 13.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Cups 14.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Cups 14.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Cups 2.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Cups 2.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Cups 3.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Cups 3.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Cups 4.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Cups 4.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Cups 5.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Cups 5.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Cups 6.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Cups 6.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Cups 7.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Cups 7.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Cups 8.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Cups 8.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Hierophant.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Hierophant.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/High Priestess.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/High Priestess.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Judgement.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Judgement.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Justice.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Justice.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Lovers.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Lovers.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Magician.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Magician.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Moon.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Moon.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Pents 1.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Pents 1.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Pents 5.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Pents 5.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Pents 6.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Pents 6.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Pents 7.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Pents 7.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Pents 8.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Pents 8.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Pents 9.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Pents 9.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Star.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Star.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Strength.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/CardBits/Tarot/Scriptables/Strength.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Scripts/Seekers/SeekerSet.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Scripts/Seekers/SeekerSetList.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Scripts/Seekers/SeekerSetList.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Scripts/Seekers/Vector3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Scripts/Seekers/Vector3/AnimCurveVector3Seeker.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Scripts/Seekers/Vector3/AnimCurveVector3Seeker.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Scripts/Seekers/Vector3/AnimCurveVector3SeekerScriptable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Scripts/Seekers/Vector3/AnimCurveVector3SeekerScriptable.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Scripts/Seekers/Vector3/ContinuousInstantVector3Seeker.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Scripts/Seekers/Vector3/ContinuousInstantVector3Seeker.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Scripts/Seekers/Vector3/ContinuousInstantVector3SeekerScriptable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Scripts/Seekers/Vector3/ContinuousInstantVector3SeekerScriptable.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Scripts/Seekers/Vector3/ExponentialVector3Seeker.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Scripts/Seekers/Vector3/ExponentialVector3Seeker.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Scripts/Seekers/Vector3/ExponentialVector3SeekerScriptable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/CardHouseCore/Scripts/Seekers/Vector3/ExponentialVector3SeekerScriptable.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/Tutorial/Lessons/6.1 - Currencies/PlantCost.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/Tutorial/Lessons/6.1 - Currencies/WaterCost.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/Tutorial/Lessons/6.1 - Currencies/WaterCost.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/Tutorial/Lessons/7.1 - Group Ownership.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/Tutorial/Lessons/7.1 - Group Ownership/(7.1) Group Ownership.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/Tutorial/Lessons/7.1 - Group Ownership/(7.1) Group Ownership.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/Tutorial/Lessons/7.1 - Group Ownership/GroupOwnership.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/Tutorial/Lessons/7.1 - Group Ownership/GroupOwnership.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/Tutorial/Lessons/8.1 - Multiplayer Cameras.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/Tutorial/Lessons/8.1 - Multiplayer Cameras/(8.1) Multiplayer Cameras.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/Tutorial/Lessons/8.1 - Multiplayer Cameras/(8.1) Multiplayer Cameras.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/Tutorial/Lessons/8.1 - Multiplayer Cameras/MountCardWPhaseGate.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/Tutorial/Lessons/8.1 - Multiplayer Cameras/MountCardWPhaseGate.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/Tutorial/Lessons/8.1 - Multiplayer Cameras/PhaseManager.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/Tutorial/Lessons/8.1 - Multiplayer Cameras/PhaseManager.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/Tutorial/Lessons/8.1 - Multiplayer Cameras/PresentationPointTutorial.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/Tutorial/Overlay/Sidebar.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/Tutorial/Overlay/Sidebar.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/Tutorial/Overlay/TutorialButton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/Tutorial/Overlay/TutorialButton.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/Tutorial/Overlay/TutorialButton.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/Tutorial/Overlay/TutorialButton.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/Tutorial/Overlay/TutorialOverlay.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/Tutorial/Overlay/TutorialOverlay.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/Tutorial/StringListScriptable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/Tutorial/StringListScriptable.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/Tutorial/Tutorial.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/Tutorial/Tutorial.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/Tutorial/TutorialPokerCard.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CardHouse/Tutorial/TutorialPokerCard.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.sgtest/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.sgtest/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Config/TextureImporter.preset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/TitleScreenButton.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/TitleScreenButton.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/Buttons.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/Buttons/Grey.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/Buttons/License.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/Buttons/License.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/Buttons/button_square_border.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/Buttons/button_square_border.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/Buttons/button_square_depth_border.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/Buttons/button_square_depth_border.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/transparent_gradient.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/transparent_vignette.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/transparent_vignette.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/transparent_vignette_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/transparent_vignette_2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/SceneTemplateSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Readme.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Readme.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Config/TextureImporter.preset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Config.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons/URP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons/URP.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/transparent_gradient.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Layout.wlt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Layout.wlt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Readme.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Readme.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/PresetManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PresetManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1374,27 +136,31 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Util/FPSCounter.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="39LInC2rAny7T7sDLXRK1tBUMfn" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.59f2\Editor\Unity.exe" />
@@ -1455,6 +221,9 @@
       <option name="presentableId" value="Default" />
       <updated>1770469091127</updated>
       <workItem from="1770469097304" duration="605000" />
+      <workItem from="1770473312076" duration="84000" />
+      <workItem from="1770473418046" duration="135000" />
+      <workItem from="1770473578609" duration="1312000" />
     </task>
     <servers />
   </component>
