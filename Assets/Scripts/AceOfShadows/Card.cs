@@ -9,16 +9,16 @@ namespace AceOfShadows
     public class Card : MonoBehaviour
     {
         [SerializeField]
-        private TextMeshProUGUI label = default;
+        private TextMeshProUGUI label = null;
         
         [SerializeField]
         private ElasticMove elasticMove = null;
         
         [SerializeField]
-        private Image cardTexture = default;
+        private Image cardTexture = null;
         
         [SerializeField]
-        private Sprite[] cardBacks = default;
+        private Sprite[] cardBacks = null;
         
         public int Index { get; private set; }
 
