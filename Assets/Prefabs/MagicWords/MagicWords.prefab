@@ -371,7 +371,7 @@ MonoBehaviour:
   avatars:
   - {fileID: 788356067188903516}
   - {fileID: 4839295713654846199}
-  replacementMap: {fileID: 11400000, guid: 24945820870d00248a1d923304d4e79f, type: 2}
+  replacementMap: {fileID: 11400000, guid: 51a8063252d295646aba4485772ef3de, type: 2}
   skipButton: {fileID: 2877706075888878538}
   nameText: {fileID: 7247287070906625182}
   mainText: {fileID: 6418060329811810787}
