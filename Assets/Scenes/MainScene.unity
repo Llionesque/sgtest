@@ -12052,11 +12052,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8193228091431845978, guid: 496ed3429d417c34f8b8e161e0222a8c, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 100
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 8193228091431845978, guid: 496ed3429d417c34f8b8e161e0222a8c, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 143
+      value: 114
       objectReference: {fileID: 0}
     - target: {fileID: 8384135015715673609, guid: 496ed3429d417c34f8b8e161e0222a8c, type: 3}
       propertyPath: m_Pivot.x
