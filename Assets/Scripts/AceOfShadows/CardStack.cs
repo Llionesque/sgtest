@@ -37,7 +37,6 @@ namespace AceOfShadows
 				.ForEach(i => TryCreateCardAtIndex(i));
 			
 			RefreshCardCountLabel();
-			ResolveChildPositions();
 		}
 
 		public bool TryCreateCardInStack()
@@ -49,7 +48,6 @@ namespace AceOfShadows
 			if (nextCardIndex.HasValue)
 			{
 				TryCreateCardAtIndex(nextCardIndex.Value);
-				ResolveChildPositions();	
 			}
 
 			return nextCardIndex.HasValue;
@@ -98,8 +96,7 @@ namespace AceOfShadows
 			}
 			
 			RefreshCardCountLabel();
-			ResolveChildPositions();
-			
+
 			return true;
 		}
 		
@@ -115,7 +112,6 @@ namespace AceOfShadows
 			
 			if (GetNumberOfCardsNeeded() < 0) EjectLastCard();
 
-			ResolveChildPositions();
 			RefreshCardCountLabel();
 		}
 		
@@ -148,15 +144,6 @@ namespace AceOfShadows
 		private void RefreshCardCountLabel()
 		{
 			if (label) label.text = cards.Count.ToString();
-		}
-		
-		private void ResolveChildPositions()
-		{
-			/*foreach (Transform child in cardsContainer)
-			{
-				child.localPosition = offset.localPosition * (cardsContainer.childCount - child.GetSiblingIndex());
-				child.gameObject.SetActive(true);
-			}*/
 		}
 
 		private void EjectLastCard()

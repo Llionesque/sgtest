@@ -32,10 +32,10 @@ namespace Util
 			onMotionEnded = onEnded;
 			
 			StopAllCoroutines();
-			StartCoroutine(FadeCoroutine(anchor, targetLocalPosition, targetLocalRotation));
+			StartCoroutine(MoveCoroutine(anchor, targetLocalPosition, targetLocalRotation));
 		}
 
-		private IEnumerator FadeCoroutine(Transform anchor,
+		private IEnumerator MoveCoroutine(Transform anchor,
 			Vector3? targetLocalPosition = null, Quaternion? targetLocalRotation = null)
 		{
 			var elapsed = 0f;
