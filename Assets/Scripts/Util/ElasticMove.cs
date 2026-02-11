@@ -19,7 +19,9 @@ namespace Util
 		private Quaternion? initialLocalRotation;
 		private Action onMotionEnded;
 
-		public void MoveToNewAnchor(Transform anchor, Action onEnded = null)
+		public void MoveToNewAnchor(Transform anchor,
+			Vector3? targetLocalPosition = null, Quaternion? targetLocalRotation = null,
+			Action onEnded = null)
 		{
 			if (!thisTransform) thisTransform = transform;
 			
@@ -30,36 +32,50 @@ namespace Util
 			onMotionEnded = onEnded;
 			
 			StopAllCoroutines();
-			StartCoroutine(FadeCoroutine(anchor));
+			StartCoroutine(FadeCoroutine(anchor, targetLocalPosition, targetLocalRotation));
 		}
 
-		private IEnumerator FadeCoroutine(Transform anchor)
+		private IEnumerator FadeCoroutine(Transform anchor,
+			Vector3? targetLocalPosition = null, Quaternion? targetLocalRotation = null)
 		{
 			var elapsed = 0f;
 			
+			targetLocalPosition ??= Vector3.zero;
+			targetLocalRotation = Quaternion.Inverse(targetLocalRotation ?? Quaternion.identity);
+
 			while (elapsed < duration)
 			{
 				if (elapsed > 0f)
 				{
 					if (!initialLocalPosition.HasValue || !initialLocalRotation.HasValue)
 					{
-						thisTransform.SetParent(anchor, true);
-						initialLocalPosition = thisTransform.localPosition;
-						initialLocalRotation = thisTransform.localRotation;
+						CalculateOffsetsBeforeMotion(anchor);	
 					}
-					
-					thisTransform.localPosition = initialLocalPosition.Value * curve.Evaluate(elapsed / duration);
-					thisTransform.localRotation = Quaternion.Slerp(Quaternion.identity, initialLocalRotation.Value, curve.Evaluate(elapsed / duration));
+
+					if (initialLocalPosition.HasValue && initialLocalRotation.HasValue)
+					{
+						var t = curve.Evaluate(elapsed / duration);
+
+						thisTransform.localPosition = Vector3.Lerp(initialLocalPosition.Value, targetLocalPosition.Value, t);
+						thisTransform.localRotation = Quaternion.Slerp(Quaternion.identity, targetLocalRotation.Value, t);
+					}
 				}
 				
 				elapsed += Time.deltaTime;
 				yield return null;
 			}
 			
-			if (initialLocalPosition.HasValue)
-				thisTransform.localPosition = initialLocalPosition.Value * curve.Evaluate(1f);
+			thisTransform.localPosition = targetLocalPosition.Value;
+			thisTransform.localRotation = targetLocalRotation.Value;
 			
 			onMotionEnded?.Invoke();
+		}
+
+		private void CalculateOffsetsBeforeMotion(Transform anchor)
+		{
+			thisTransform.SetParent(anchor, true);
+			initialLocalPosition = thisTransform.localPosition;
+			initialLocalRotation = thisTransform.localRotation;
 		}
 	}
 }

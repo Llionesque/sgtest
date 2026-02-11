@@ -32,15 +32,20 @@ namespace AceOfShadows
             Index = cardIndex;
             cardTexture.sprite = cardBacks[Index % cardBacks.Length];
             gameObject.name = $"Card{Index}";
+            gameObject.SetActive(true);
             
             if (label) label.SetText(Index.ToString());
 
             return this;
         }
         
-        public void MoveToAnchor(Transform anchor, Action onComplete = null)
+        public void MoveToAnchor(Transform anchor, CardStackPositions.Position position, Action onComplete = null)
         {
-            elasticMove.MoveToNewAnchor(anchor, onComplete);
+            elasticMove.MoveToNewAnchor(anchor,
+                position.WorldPosition - anchor.position,
+                Quaternion.Inverse(position.WorldRotation) * anchor.rotation,
+                onComplete);
+            
             transform.SetAsLastSibling();
         }
     }

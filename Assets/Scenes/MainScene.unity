@@ -12046,18 +12046,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: AceOfShadows
       objectReference: {fileID: 0}
-    - target: {fileID: 6638932096732621387, guid: 496ed3429d417c34f8b8e161e0222a8c, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8193228091431845978, guid: 496ed3429d417c34f8b8e161e0222a8c, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 80
-      objectReference: {fileID: 0}
-    - target: {fileID: 8193228091431845978, guid: 496ed3429d417c34f8b8e161e0222a8c, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 114
-      objectReference: {fileID: 0}
     - target: {fileID: 8384135015715673609, guid: 496ed3429d417c34f8b8e161e0222a8c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

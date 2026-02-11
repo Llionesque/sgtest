@@ -12,7 +12,7 @@ namespace AceOfShadows
 		private Transform cardsContainer = null;
 		
 		[SerializeField]
-		private Transform offset = null;
+		private CardStackPositions positions = null;
 
 		[SerializeField]
 		private int maxCards = 12;
@@ -22,9 +22,9 @@ namespace AceOfShadows
 
 		private Dictionary<int, Card> cards;
 
-		public int CreatedCardsCount => cardsContainer.childCount;
-		public bool IsEmpty => CreatedCardsCount <= 0;
-		public bool IsFull => CreatedCardsCount >= maxCards;
+		private int createdCardsCount => cardsContainer.childCount;
+		private bool isEmpty => createdCardsCount <= 0;
+		private bool isFull => createdCardsCount >= maxCards;
 		
 		public event Action<Card> OnCardEjected;
 
@@ -34,7 +34,7 @@ namespace AceOfShadows
 		{
 			Enumerable.Range(1, cardCount)
 				.ToList()
-				.ForEach(i => AddCardIndex(i));
+				.ForEach(i => TryCreateCardAtIndex(i));
 			
 			RefreshCardCountLabel();
 			ResolveChildPositions();
@@ -42,35 +42,59 @@ namespace AceOfShadows
 
 		public bool TryCreateCardInStack()
 		{
-			int? nextCardIndex = (CreatedCardsCount < cards.Count(kvp => kvp.Value)) 
-				? CreatedCardsCount
+			int? nextCardIndex = (createdCardsCount < cards.Count(kvp => kvp.Value)) 
+				? createdCardsCount
 				: null;
 
 			if (nextCardIndex.HasValue)
 			{
-				AddCardIndex(nextCardIndex.Value);
+				TryCreateCardAtIndex(nextCardIndex.Value);
 				ResolveChildPositions();	
 			}
 
 			return nextCardIndex.HasValue;
 		}
 		
+		private Card TryCreateCardAtIndex(int cardIndex)
+		{
+			var card = (!isFull) 
+				? CreateNextCard(cardIndex) 
+				: null;
+
+			if (card)
+			{
+				var cardTransform = card.transform;
+				
+				cardTransform.SetParent(cardsContainer);
+
+				var positionData = positions.GetNextPosition();
+				card.transform.position = positionData.WorldPosition;
+				card.transform.rotation = positionData.WorldRotation;
+				
+				cardTransform.SetAsFirstSibling();
+			}
+
+			SetCard(cardIndex, card);
+			
+			return card;
+		}
+		
 		public bool MoveCardFromStack(out Card card)
 		{
-			if (IsEmpty)
+			if (isEmpty)
 			{
 				card = null;
 				return false;
 			}
 
-			var cardTransform = cardsContainer.GetChild(CreatedCardsCount - 1);
+			var cardTransform = cardsContainer.GetChild(createdCardsCount - 1);
 			cardTransform.SetParent(null);
 			card = cardTransform.GetComponent<Card>();
 			cards.Remove(card.Index);
 			
 			while (GetNumberOfCardsNeeded() > 0)
 			{
-				AddCardIndex(cards.First(kvp => !kvp.Value).Key);
+				TryCreateCardAtIndex(cards.First(kvp => !kvp.Value).Key);
 			}
 			
 			RefreshCardCountLabel();
@@ -83,9 +107,9 @@ namespace AceOfShadows
 		{
 			if (!card) return;
 			
-			if (IsFull) EjectLastCard();
+			if (isFull) EjectLastCard();
 			
-			card.MoveToAnchor(cardsContainer); //, ResolveChildPositions); // Post-move resolve
+			card.MoveToAnchor(cardsContainer, positions.GetNextPosition());
 			
 			SetCard(card.Index, card);
 			
@@ -106,25 +130,8 @@ namespace AceOfShadows
 			
 			cards.Clear();
 			RefreshCardCountLabel();
-		}
-		
-		private Card AddCardIndex(int cardIndex)
-		{
-			var card = (!IsFull) 
-				? CreateNextCard(cardIndex) 
-				: null;
 
-			if (card != null)
-			{
-				var cardTransform = card.transform;
-				
-				cardTransform.SetParent(cardsContainer);
-				cardTransform.SetAsFirstSibling();
-			}
-
-			SetCard(cardIndex, card);
-			
-			return card;
+			positions.ResetCounts();
 		}
 
 		private void SetCard(int cardIndex, Card card)
@@ -135,7 +142,7 @@ namespace AceOfShadows
 
 		private int GetNumberOfCardsNeeded()
 		{
-			return Math.Min(cards.Count, maxCards) - CreatedCardsCount;	
+			return Math.Min(cards.Count, maxCards) - createdCardsCount;	
 		}
 
 		private void RefreshCardCountLabel()
@@ -145,11 +152,11 @@ namespace AceOfShadows
 		
 		private void ResolveChildPositions()
 		{
-			foreach (Transform child in cardsContainer)
+			/*foreach (Transform child in cardsContainer)
 			{
 				child.localPosition = offset.localPosition * (cardsContainer.childCount - child.GetSiblingIndex());
 				child.gameObject.SetActive(true);
-			}
+			}*/
 		}
 
 		private void EjectLastCard()
