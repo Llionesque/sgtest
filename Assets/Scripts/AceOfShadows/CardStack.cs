@@ -86,7 +86,6 @@ namespace AceOfShadows
 			}
 
 			var cardTransform = cardsContainer.GetChild(createdCardsCount - 1);
-			cardTransform.SetParent(null);
 			card = cardTransform.GetComponent<Card>();
 			cards.Remove(card.Index);
 			
@@ -104,13 +103,11 @@ namespace AceOfShadows
 		{
 			if (!card) return;
 			
-			if (isFull) EjectLastCard();
-			
 			card.MoveToAnchor(cardsContainer, positions.GetNextPosition());
 			
 			SetCard(card.Index, card);
 			
-			if (GetNumberOfCardsNeeded() < 0) EjectLastCard();
+			if (GetNumberOfCardsNeeded() < 0 || isFull) EjectLastCard();
 
 			RefreshCardCountLabel();
 		}

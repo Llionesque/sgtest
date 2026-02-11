@@ -19,12 +19,13 @@ namespace AceOfShadows
 		{
 			return (pooledCards.TryPop(out var card))
 				? card.Initialise(index)
-				: Instantiate(cardPrefab.gameObject).GetComponent<Card>().Initialise(index);
+				: Instantiate(cardPrefab.gameObject, transform, false)
+					.GetComponent<Card>().Initialise(index);
 		}
 
 		public void AddCardToPool(Card card)
 		{
-			card.transform.SetParent(transform, false);
+			card.transform.SetParent(transform, true);
 			card.transform.localRotation = Quaternion.identity;
 			card.gameObject.SetActive(false);
 			
