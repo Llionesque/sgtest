@@ -105,8 +105,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positions:
   - {fileID: 5152607046497471100}
-  stackingOffsetPosition: {x: 0, y: -1, z: 0}
-  stackingOffsetRotation: {x: 0, y: 0, z: 0}
+  groupOffsetPosition: {x: 0, y: -1, z: 0}
+  groupOffsetRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &4585297404677389810
 GameObject:
   m_ObjectHideFlags: 0
@@ -200,7 +200,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1861002109081620375
 RectTransform:
   m_ObjectHideFlags: 0

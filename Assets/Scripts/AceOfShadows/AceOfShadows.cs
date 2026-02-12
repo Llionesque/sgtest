@@ -11,6 +11,9 @@ namespace AceOfShadows
 	{
 		public override string Title => "Ace of Shadows";
 
+		private const float DEFAULT_CARD_INTERVAL = 0.25f;
+		private const float FAST_INTERVAL_MODIFIER = 0.2f;
+
 		[Header("Cards")]
 		[SerializeField]
 		private CardPool cardPool;
@@ -25,10 +28,6 @@ namespace AceOfShadows
 		[Tooltip("Number of cards in the source deck")]
 		[SerializeField]
 		private int cardCount = 144;
-		
-		[SerializeField]
-		[Tooltip("Number of cards in the source deck")]
-		private float cardInterval = 0.2f;
 
 		[Header("Displays")]
 		[SerializeField]
@@ -38,12 +37,27 @@ namespace AceOfShadows
 		[SerializeField]
 		[Tooltip("GameObject to show when dealing finishes")]
 		private GameObject completionDisplay = null;
+		
+		[Header("Buttons")]
+		[SerializeField]
+		private Button playButton = null;
+		
+		[SerializeField]
+		private Button pauseButton = null;
+		
+		[SerializeField]
+		private Button fastButton;
 
 		[SerializeField]
-		private Button quitButton = null;
+		private Button replayButton = null;
 		
 		private int movedCardsCount;
 		private int destinationStackIndex;
+		
+		private float normalCardInterval;
+		private float fastCardInterval;
+		
+		private float cardInterval;
 		
 		private void Awake()
 		{
@@ -52,10 +66,11 @@ namespace AceOfShadows
 				cardStack.OnCardEjected += cardPool.AddCardToPool;
 			}
 			
-			quitButton.onClick.RemoveAllListeners();
-			quitButton.onClick.AddListener(End);
+			replayButton.onClick.AddListener(Begin);
+
+			InitialiseSpeedButtons();
 		}
-		
+
 		public override void Begin()
 		{
 			base.Begin();
@@ -65,6 +80,12 @@ namespace AceOfShadows
 			movedCardsCount = 0;
 			destinationStackIndex = 0;
 			
+			normalCardInterval = DEFAULT_CARD_INTERVAL;
+			fastCardInterval = DEFAULT_CARD_INTERVAL * FAST_INTERVAL_MODIFIER;
+			
+			cardInterval = normalCardInterval;
+			UpdateButtonStates(null);
+
 			StartCoroutine(CardTransitionCoroutine());
 		}
 		
@@ -72,7 +93,7 @@ namespace AceOfShadows
 		{
 			dealingDisplay.SetActive(false);
 			completionDisplay.SetActive(false);
-			quitButton.gameObject.SetActive(false);
+			replayButton.gameObject.SetActive(false);
 			
 			StopAllCoroutines();
 			
@@ -90,17 +111,22 @@ namespace AceOfShadows
 			yield return new WaitForSeconds(1f);
 			
 			dealingDisplay.SetActive(true);
+			UpdateButtonStates(playButton);
 			
 			while (movedCardsCount < cardCount)
 			{
-				MoveNextCard();
-				
-				movedCardsCount++;
-				destinationStackIndex = (destinationStackIndex + 1) % destinationCardStacks.Length;
-				
-				yield return new WaitForSeconds(cardInterval);
-			}
+				if (cardInterval > 0f)
+				{
+					MoveNextCard();
 
+					movedCardsCount++;
+					destinationStackIndex = (destinationStackIndex + 1) % destinationCardStacks.Length;
+
+					yield return new WaitForSeconds(cardInterval);
+				}
+				else yield return null;
+			}
+			
 			HandleCardTransitionsEnded();
 		}
 
@@ -108,7 +134,7 @@ namespace AceOfShadows
 		{
 			dealingDisplay.SetActive(false);
 			completionDisplay.SetActive(true);
-			quitButton.gameObject.SetActive(true);
+			replayButton.gameObject.SetActive(true);
 		}
 
 		private void MoveNextCard()
@@ -118,6 +144,39 @@ namespace AceOfShadows
 				destinationCardStacks[destinationStackIndex].MoveCardToStack(card);
 				sourceCardStack.TryCreateCardInStack();
 			}
+		}
+		
+		private void InitialiseSpeedButtons()
+		{
+			playButton.onClick.AddListener(() =>
+			{
+				cardInterval = normalCardInterval;
+				UpdateButtonStates(playButton);
+			});
+			
+			fastButton.onClick.AddListener(() =>
+			{
+				cardInterval = fastCardInterval;
+				UpdateButtonStates(fastButton);
+			});
+
+			pauseButton.onClick.AddListener(() =>
+			{
+				cardInterval = 0f;
+				UpdateButtonStates(pauseButton);
+			});
+
+			UpdateButtonStates(null);
+		}
+		
+		private void UpdateButtonStates(Button activeButton)
+		{
+			void UpdateButton(Button button)
+				=> button.interactable = activeButton && (activeButton != button);
+			
+			UpdateButton(playButton);
+			UpdateButton(pauseButton);
+			UpdateButton(fastButton);
 		}
 	}
 }
