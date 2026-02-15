@@ -41,11 +41,11 @@ namespace AceOfShadows
 
 		public bool TryCreateCardInStack()
 		{
-			int? nextCardIndex = (createdCardsCount < cards.Count(kvp => kvp.Value)) 
-				? createdCardsCount
+			int? nextCardIndex = (Math.Min(cards.Count, maxCards) >= createdCardsCount) 
+				? cards.FirstOrDefault(kvp => !kvp.Value).Key
 				: null;
 
-			if (nextCardIndex.HasValue)
+			if (nextCardIndex.HasValue && nextCardIndex.Value > 0)
 			{
 				TryCreateCardAtIndex(nextCardIndex.Value);
 			}
