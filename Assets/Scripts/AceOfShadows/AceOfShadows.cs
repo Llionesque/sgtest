@@ -84,7 +84,7 @@ namespace AceOfShadows
 			fastCardInterval = DEFAULT_CARD_INTERVAL * FAST_INTERVAL_MODIFIER;
 			
 			cardInterval = normalCardInterval;
-			SetSingleButtonEnabled(null);
+			SetSingleButtonDisabled(null);
 
 			StartCoroutine(CardTransitionCoroutine());
 		}
@@ -111,7 +111,7 @@ namespace AceOfShadows
 			yield return new WaitForSeconds(1f);
 			
 			dealingDisplay.SetActive(true);
-			SetSingleButtonEnabled(playButton);
+			SetSingleButtonDisabled(playButton);
 			
 			while (movedCardsCount < cardCount)
 			{
@@ -135,7 +135,7 @@ namespace AceOfShadows
 			dealingDisplay.SetActive(false);
 			completionDisplay.SetActive(true);
 			replayButton.gameObject.SetActive(true);
-			SetSingleButtonEnabled(null);
+			SetSingleButtonDisabled(null);
 		}
 
 		private void MoveNextCard()
@@ -152,25 +152,25 @@ namespace AceOfShadows
 			playButton.onClick.AddListener(() =>
 			{
 				cardInterval = normalCardInterval;
-				SetSingleButtonEnabled(playButton);
+				SetSingleButtonDisabled(playButton);
 			});
 			
 			fastButton.onClick.AddListener(() =>
 			{
 				cardInterval = fastCardInterval;
-				SetSingleButtonEnabled(fastButton);
+				SetSingleButtonDisabled(fastButton);
 			});
 
 			pauseButton.onClick.AddListener(() =>
 			{
 				cardInterval = 0f;
-				SetSingleButtonEnabled(pauseButton);
+				SetSingleButtonDisabled(pauseButton);
 			});
 
-			SetSingleButtonEnabled(null);
+			SetSingleButtonDisabled(null);
 		}
 		
-		private void SetSingleButtonEnabled(Button activeButton)
+		private void SetSingleButtonDisabled(Button activeButton)
 		{
 			void UpdateButton(Button button)
 				=> button.interactable = activeButton && (activeButton != button);
