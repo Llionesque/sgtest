@@ -1,4 +1,7 @@
 using System;
+using System.Threading.Tasks;
+using Configuration;
+using JetBrains.Annotations;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -6,32 +9,14 @@ using Util;
 
 namespace MagicWords
 {
-    public class MagicWords : ExerciseController
+    public class MagicWords : ExerciseController<Configuration.MagicWordsConfig>
     {
-        public override string Title => "Magic Words";
-        
-        [Header("Config")]
-        [SerializeField]
-        private string url = null;
-        
-        [SerializeField]
-        private AsyncJsonFetcher jsonFetcher = null;
-
         [Header("UI Elements")]
         [SerializeField]
         private DialogueBox dialogueBox = default;
-
-        [SerializeField]
-        private GameObject loadingScreen = null;
-
-        [SerializeField]
-        private Slider progressBar = null;
         
         [SerializeField]
         private Button quitButton = null;
-
-        [SerializeField]
-        private TextMeshProUGUI jsonText = null;
 
         [Header("Error Handling")]
         [SerializeField]
@@ -42,69 +27,61 @@ namespace MagicWords
 
         [SerializeField]
         private Button errorRetryButton = null;
+        
+        private MagicWordsSession session;
 
-        private void Awake()
+        protected override async Task InitialiseAsyncInternal(Configuration.MagicWordsConfig config)
         {
-            if (!jsonFetcher) jsonFetcher = GetComponent<AsyncJsonFetcher>();
-            
-            if (progressBar) progressBar.value = 0f;
+            dialogueBox.Clear();
             
             errorRetryButton.onClick.AddListener(Begin);
             quitButton.onClick.AddListener(End);
+            
+            session = new MagicWordsSession(config);
+            
+            await session.FetchDialogueData(
+                HandleDialogueFetched,
+                HandleDialogueFetchProgress,
+                HandleDialogueFetchError);
         }
 
         public override void Begin()
         {
             base.Begin();
-
-            dialogueBox.Hide();
+            
             errorRoot.SetActive(false);
             quitButton.gameObject.SetActive(false);
-            jsonText.text = string.Empty;
-            
-            FetchDialogueData();
-        }
 
-        private void FetchDialogueData()
-        {
-            loadingScreen.gameObject.SetActive(true);
-            
-            if (progressBar) progressBar.value = 0f;
-            
-            jsonFetcher.Fetch<DialogueData>(url, 
-                HandleDialogueFetched, 
-                HandleDialogueError, 
-                HandleDialogueProgress);
-        }
-
-        private void HandleDialogueFetched(DialogueData dialogueData)
-        {
-            loadingScreen.gameObject.SetActive(false);
-
-            jsonText.text = jsonFetcher.FullContent
-                .Replace("\n", "")
-                .Replace("  ", "");
-            
-            dialogueBox.Show(dialogueData, () =>
+            if (session?.HasDialogueLines ?? false)
             {
-                quitButton.gameObject.SetActive(true);
-            });
+                dialogueBox.Clear();
+                
+                dialogueBox.Show(session.GetDisplayLine, config.ReplacementMap, () =>
+                {
+                    quitButton.gameObject.SetActive(true);
+                });
+            }
+            else dialogueBox.Hide();
+        }
+        
+        private void HandleDialogueFetched()
+        {
+            // Begin() is called automatically by the exercise loader
         }
 
-        private void HandleDialogueError(Exception exception)
+        private void HandleDialogueFetchError(Exception exception)
         {
-            loadingScreen.gameObject.SetActive(false);
-            
             errorRoot.SetActive(true);
             errorText.text = exception.Message;
             dialogueBox.Hide();
             
-            Debug.LogError(exception);
+            Debug.LogException(exception);
         }
         
-        private void HandleDialogueProgress(float progress)
+        private void HandleDialogueFetchProgress(float progress)
         {
-            if (progressBar) progressBar.value = progress;
+            // Progress isn't returned correctly so no sense using it
+            // if (progressBar) progressBar.value = progress;
         }
     }
 }

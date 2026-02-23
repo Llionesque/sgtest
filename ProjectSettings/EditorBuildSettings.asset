@@ -8,6 +8,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/AceOfShadowsScene.unity
+    guid: 1f99e53355b6df340bda2e5829d6d03b
+  - enabled: 1
+    path: Assets/Scenes/MagicWordsScene.unity
+    guid: ceac77e0504302648bb1caa2c90124d3
+  - enabled: 1
+    path: Assets/Scenes/PhoenixFlameScene.unity
+    guid: 6328385b5183c4a438101b5c3c8027cd
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

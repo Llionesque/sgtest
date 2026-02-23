@@ -2,19 +2,18 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
+using Configuration;
 using UnityEngine;
 using UnityEngine.UI;
 
 namespace AceOfShadows
 {
-	public class AceOfShadows : ExerciseController
+	public class AceOfShadows : ExerciseController<Configuration.AceOfShadowsConfig>
 	{
-		public override string Title => "Ace of Shadows";
-
-		private const float DEFAULT_CARD_INTERVAL = 0.25f;
-		private const float FAST_INTERVAL_MODIFIER = 0.2f;
-
-		[Header("Cards")]
+		private const int MAX_CARDS = 144;
+		
+		[Header("Scene references")]
 		[SerializeField]
 		private CardPool cardPool;
 		
@@ -22,13 +21,8 @@ namespace AceOfShadows
 		private CardStack sourceCardStack = null;
 		
 		[SerializeField]
-		private CardStack[] destinationCardStacks = null;
-
-		[Header("Settings")]
-		[Tooltip("Number of cards in the source deck")]
-		[SerializeField]
-		private int cardCount = 144;
-
+		private GameObject destinationCardStacksRoot = null;
+		
 		[Header("Displays")]
 		[SerializeField]
 		[Tooltip("GameObject to show when dealing starts")]
@@ -51,59 +45,62 @@ namespace AceOfShadows
 		[SerializeField]
 		private Button replayButton = null;
 		
-		private int movedCardsCount;
-		private int destinationStackIndex;
-		
-		private float normalCardInterval;
-		private float fastCardInterval;
-		
+		private Dictionary<int, CardStack> destinationCardStacks = null;
+		private AceOfShadowsSession session;
 		private float cardInterval;
-		
-		private void Awake()
+
+		protected override async Task InitialiseAsyncInternal(Configuration.AceOfShadowsConfig config)
 		{
-			foreach (var cardStack in destinationCardStacks)
+			if (session != null)
 			{
-				cardStack.OnCardEjected += cardPool.AddCardToPool;
+				session.OnCardMoved -= HandleCardMoved;
+				session.OnComplete -= HandleCardTransitionsEnded;
+				session = null;
 			}
 			
+			session = new AceOfShadowsSession(config);
+			session.OnCardMoved += HandleCardMoved;
+			session.OnComplete += HandleCardTransitionsEnded;
+			
 			replayButton.onClick.AddListener(Begin);
-
-			InitialiseSpeedButtons();
 		}
 
 		public override void Begin()
 		{
 			base.Begin();
-			
-			InitialiseCardStacks();
-			
-			movedCardsCount = 0;
-			destinationStackIndex = 0;
-			
-			normalCardInterval = DEFAULT_CARD_INTERVAL;
-			fastCardInterval = DEFAULT_CARD_INTERVAL * FAST_INTERVAL_MODIFIER;
-			
-			cardInterval = normalCardInterval;
-			SetSingleButtonDisabled(null);
 
+			dealingDisplay.SetActive(false);
+			completionDisplay.SetActive(false);
+			replayButton.gameObject.SetActive(false);
+			
+			InitialiseSpeedButtons();
+			InitialiseCardStacks();
+
+			StopAllCoroutines();
+			SetSingleButtonDisabled(null);
 			StartCoroutine(CardTransitionCoroutine());
 		}
 		
 		private void InitialiseCardStacks()
 		{
-			dealingDisplay.SetActive(false);
-			completionDisplay.SetActive(false);
-			replayButton.gameObject.SetActive(false);
-			
-			StopAllCoroutines();
-			
-			foreach (var stack in destinationCardStacks.Concat(new[]{ sourceCardStack }))
-			{
-				stack.ClearCards();
-				stack.CreateNextCard = cardPool.GetCard;
-			}
+			foreach (Transform child in destinationCardStacksRoot.transform)
+				Destroy(child.gameObject);
 
-			sourceCardStack.Initialise(cardCount);
+			destinationCardStacks = session.GetStackInfos()
+				.Where(info => info.Position > AceOfShadowsSession.CardStackInfo.SOURCE_POSITION_ID)
+				.ToDictionary(info => info.Position,
+				info => CreateCardStack(info.StackType));
+			
+			sourceCardStack.CreateNextCard = cardPool.GetCard;
+			sourceCardStack.CreateCards(config.GetClampedProperty(config.CardCount, nameof(config.CardCount), 0, MAX_CARDS));
+		}
+
+		private CardStack CreateCardStack(Configuration.AceOfShadowsConfig.CardStackType stackType)
+		{
+			var prefab = config.GetCardStackPrefab(stackType);
+			var cardStack = Instantiate(prefab, destinationCardStacksRoot.transform, false);
+			cardStack.OnCardEjected += cardPool.AddCardToPool;
+			return cardStack;
 		}
 
 		private IEnumerator CardTransitionCoroutine()
@@ -112,22 +109,17 @@ namespace AceOfShadows
 			
 			dealingDisplay.SetActive(true);
 			SetSingleButtonDisabled(playButton);
+			cardInterval = config.NormalCardInterval;
 			
-			while (movedCardsCount < cardCount)
+			while (!session.IsComplete)
 			{
 				if (cardInterval > 0f)
 				{
-					MoveNextCard();
-
-					movedCardsCount++;
-					destinationStackIndex = (destinationStackIndex + 1) % destinationCardStacks.Length;
-
+					session.MoveNextCard();
 					yield return new WaitForSeconds(cardInterval);
 				}
 				else yield return null;
 			}
-			
-			HandleCardTransitionsEnded();
 		}
 
 		private void HandleCardTransitionsEnded()
@@ -138,11 +130,19 @@ namespace AceOfShadows
 			SetSingleButtonDisabled(null);
 		}
 
-		private void MoveNextCard()
+		private void HandleCardMoved(int sourcePosition, int destinationPosition)
 		{
+			var sourceIndexId = AceOfShadowsSession.CardStackInfo.SOURCE_POSITION_ID;
+
+			if (sourcePosition != sourceIndexId)
+				throw new Exception($"Moving cards from non-source index ({sourceIndexId}): {sourcePosition} is not yet supported.");
+
+			if (sourcePosition == destinationPosition)
+				throw new Exception($"Cannot move a card from the same stack to itself");
+			
 			if (sourceCardStack.MoveCardFromStack(out var card))
 			{
-				destinationCardStacks[destinationStackIndex].MoveCardToStack(card);
+				destinationCardStacks[destinationPosition].MoveCardToStack(card);
 				sourceCardStack.TryCreateCardInStack();
 			}
 		}
@@ -151,13 +151,13 @@ namespace AceOfShadows
 		{
 			playButton.onClick.AddListener(() =>
 			{
-				cardInterval = normalCardInterval;
+				cardInterval = config.NormalCardInterval;
 				SetSingleButtonDisabled(playButton);
 			});
 			
 			fastButton.onClick.AddListener(() =>
 			{
-				cardInterval = fastCardInterval;
+				cardInterval = config.FastCardInterval;
 				SetSingleButtonDisabled(fastButton);
 			});
 

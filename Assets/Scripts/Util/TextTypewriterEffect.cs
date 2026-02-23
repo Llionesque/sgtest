@@ -49,6 +49,12 @@ namespace Util
 		{
 			skipCurrentLine = true;
 		}
+		
+		public void Clear()
+		{
+			StopTyping();
+			text.text = string.Empty;
+		}
 
 		private IEnumerator TypingCoroutine(string message)
 		{
@@ -108,16 +114,14 @@ namespace Util
 		private void StopTyping()
 		{
 			if (!IsTyping) return;
-			
-			StopCoroutine(typingCoroutine);
-			typingCoroutine = null;
-			skipCurrentLine = false;
-		}
 
-		private void Clear()
-		{
-			StopTyping();
-			text.text = string.Empty;
+			if (typingCoroutine != null)
+			{
+				StopCoroutine(typingCoroutine);
+				typingCoroutine = null;
+			}
+			
+			skipCurrentLine = false;
 		}
 	}
 }

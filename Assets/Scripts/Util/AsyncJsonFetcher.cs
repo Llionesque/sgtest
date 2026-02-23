@@ -1,62 +1,44 @@
 using System;
-using System.Collections;
 using System.Net;
+using System.Threading.Tasks;
 using Newtonsoft.Json;
-using UnityEngine;
 using UnityEngine.Networking;
 
 namespace Util
 {
-	public class AsyncJsonFetcher : MonoBehaviour
+	public class AsyncJsonFetch<T> where T : class
 	{
-		private string currentTaskUrl;
+		private string url;
 		
 		public string FullContent { get; private set; }
 
-		public void Fetch<T>(string url, Action<T> onSuccess, Action<Exception> onError,
-			Action<float> onProgress = null)
-			where T : class
+		public AsyncJsonFetch(string url)
 		{
-			if (!string.IsNullOrEmpty(currentTaskUrl)) throw new Exception($"Already fetching from {currentTaskUrl}");
-			
-			StartCoroutine(FetchCoroutine(url, onSuccess, onError, onProgress));
+			this.url = url;
+			FullContent = null;
 		}
 
-		private IEnumerator FetchCoroutine<T>(string url, Action<T> onSuccess, Action<Exception> onError,
-			Action<float> onProgress = null)
+		public async Task<T> Fetch(Action<float> onProgress = null)
 		{
-			using var request = UnityWebRequest.Get(url);
-
-			FullContent = null;
-
-			currentTaskUrl = url;
-			{
-				var requestOperation = request.SendWebRequest();
-
-				while (!requestOperation.isDone)
-				{
-					onProgress?.Invoke(request.downloadProgress);
-					
-					yield return null;
-				}
-			}
-			currentTaskUrl = null;
-
-			if (request.result != UnityWebRequest.Result.Success)
-			{
-				onError?.Invoke(new WebException(request.error));
-				yield break;
-			}
-
 			try
 			{
-				var json = request.downloadHandler.text;
-				FullContent = json;
-				onSuccess?.Invoke(JsonConvert.DeserializeObject<T>(json));
+				using var request = UnityWebRequest.Get(url);
+				var operation = request.SendWebRequest();
+
+				while (!operation.isDone)
+				{
+					onProgress?.Invoke(request.downloadProgress);
+					await Task.Yield();
+				}
+
+				if (request.result != UnityWebRequest.Result.Success) 
+					throw new WebException(request.error);
+
+				return JsonConvert.DeserializeObject<T>(request.downloadHandler.text);
 			}
-			catch (Exception e)
+			finally
 			{
-				onError?.Invoke(e);
+				url = null;
 			}
 		}
 	}

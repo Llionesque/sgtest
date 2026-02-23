@@ -30,7 +30,7 @@ namespace AceOfShadows
 
 		public Func<int, Card> CreateNextCard;
 
-		public void Initialise(int cardCount)
+		public void CreateCards(int cardCount)
 		{
 			Enumerable.Range(1, cardCount)
 				.ToList()
@@ -149,6 +149,11 @@ namespace AceOfShadows
 			
 			/*var lastCard = cardsContainer.GetChild(cardsContainer.childCount - 1).GetComponent<Card>();
 			OnCardEjected?.Invoke(lastCard);*/
+		}
+
+		private void OnDestroy()
+		{
+			OnCardEjected = null;
 		}
 	}
 }

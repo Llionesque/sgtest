@@ -1,13 +1,13 @@
 using System.Linq;
+using System.Threading.Tasks;
+using Configuration;
 using UnityEngine;
 using UnityEngine.UI;
 
 namespace PhoenixFlame
 {
-    public class PhoenixFlame : ExerciseController
+    public class PhoenixFlame : ExerciseController<PhoenixFlameConfig>
     {
-        public override string Title => "Phoenix Flame";
-        
         private static readonly int propertyValueHash = Animator.StringToHash("Value");
 
         private static Color HueToColour(float f) => Color.HSVToRGB(f, 1f, 1f);
@@ -15,15 +15,9 @@ namespace PhoenixFlame
         [Header("Phoenix Flame")]
         [SerializeField]
         private ParticleSystem[] particleSystems = null;
-
-        [SerializeField]
-        private int numberOfColourButtons = 12;
         
         [SerializeField]
         private Animator animator = null;
-
-        [SerializeField]
-        private float animationSpeed = 0.06f;
 
         [Header("UI Elements")]
         [SerializeField]
@@ -37,18 +31,23 @@ namespace PhoenixFlame
         
         [SerializeField]
         private Graphic[] additionalGraphics = null;
-        
+
+        private int numberOfButtons;
         private ParticleSystem.ColorOverLifetimeModule[] colorModules;
 
-        private void Awake()
+        protected override async Task InitialiseAsyncInternal(PhoenixFlameConfig config)
         {
+            const float MAX_ANIMATION_SPEED = 0.25f;
+            
             colorModules = particleSystems
                 .Select(k => k.GetComponent<ParticleSystem>().colorOverLifetime)
                 .ToArray();
             
             colourButtonPrefab.gameObject.SetActive(false);
             animatorToggleButton.onClick.AddListener(() => EnableAnimator(!animator.enabled));
-            animator.speed = animationSpeed;
+            animator.speed = config.GetClampedProperty(config.AnimationSpeed, 
+                nameof(config.AnimationSpeed),
+                0, MAX_ANIMATION_SPEED);
 
             GenerateColourButtons();
         }
@@ -57,17 +56,26 @@ namespace PhoenixFlame
         {
             base.Begin();
         
-            animator.SetFloat(propertyValueHash, 0f);
+            // animator.SetFloat(propertyValueHash, 0f);
             SyncAnimatorColour();
-            EnableAnimator(false);
+
+            var hasButtons = (numberOfButtons > 0);
+            animatorToggleButton.gameObject.SetActive(hasButtons);
+            EnableAnimator(!hasButtons);
+            indicator.SetActive(hasButtons);
         }
         
         private void GenerateColourButtons()
         {
-            for (var i = 0; i < numberOfColourButtons; i++)
+            const int MAX_BUTTONS = 124;
+            
+            numberOfButtons = config.GetClampedProperty(config.NumberOfColourButtons, 
+                nameof(config.NumberOfColourButtons),
+                0, MAX_BUTTONS);
+            
+            for (var i = 0; i < numberOfButtons; i++)
             {
-                var hue = (float)i / numberOfColourButtons;
-                
+                var hue = (float)i / numberOfButtons;
                 GenerateColourButton(hue, Quaternion.AngleAxis(hue * 360f, Vector3.forward));
             }
         }
@@ -78,7 +86,7 @@ namespace PhoenixFlame
                 .GetComponentInChildren<PhoenixFlameColourButton>()
                 .Initialise(HueToColour(hue), () =>
                 {
-                    animator.SetFloat(propertyValueHash, hue);
+                    // animator.SetFloat(propertyValueHash, hue);
                     ApplyHueToParticleSystems(hue);
                     
                     EnableAnimator(false);

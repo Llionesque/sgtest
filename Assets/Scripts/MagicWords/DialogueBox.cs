@@ -15,9 +15,6 @@ namespace MagicWords
         [SerializeField]
         private DialogueAvatar[] avatars = null;
         
-        [SerializeField]
-        private StringReplacementMap replacementMap = null;
-        
         [Header("UI Elements")]
         [SerializeField]
         private Button skipButton = null;
@@ -28,10 +25,12 @@ namespace MagicWords
         [SerializeField]
         private TextMeshProUGUI mainText = null;
 
-        private DialogueData dialogueData;
+        private StringReplacementMap replacementMap;
         private int lineIndex;
         private Action onLineComplete;
         private Action onDialogueComplete;
+
+        private Func<int, MagicWordsSession.DisplayLine> getNextLine;
 
         private void Awake()
         {
@@ -47,12 +46,14 @@ namespace MagicWords
             typewriterEffect.OnTypingStateChanged += SyncSkipButton;
         }
         
-        public void Show(DialogueData dialogueData,
+        public void Show(Func<int, MagicWordsSession.DisplayLine> getNextLine,
+            StringReplacementMap replacementMap = null,
             Action onDialogueComplete = null, Action onLineComplete = null)
         {
             gameObject.SetActive(true);
             
-            this.dialogueData = dialogueData;
+            this.getNextLine = getNextLine;
+            this.replacementMap = replacementMap;
             this.onDialogueComplete = onDialogueComplete;
             this.onLineComplete = onLineComplete;
             
@@ -63,24 +64,30 @@ namespace MagicWords
 
             StartNextLine();
         }
-        
-        public void Hide() => gameObject.SetActive(false);
+
+        public void Hide()
+        {
+            gameObject.SetActive(false);
+            typewriterEffect.Clear();
+        }
+
+        public void Clear()
+        {
+            nameText.text = "";
+            HideAllAvatars();
+            typewriterEffect.Clear();
+            skipButton.gameObject.SetActive(false);
+        }
 
         private void StartNextLine()
         {
-            if (dialogueData == null || lineIndex >= dialogueData.LineCount)
+            var line = getNextLine.Invoke(lineIndex);
+            
+            if (!line.IsEnd)
             {
-                HandleDialogueComplete();
-                return;
-            }
-
-            var line = dialogueData.GetLine(lineIndex);
-            if (line != null)
-            {
-                nameText.text = line.name;
+                nameText.text = line.Line.name;
                 
-                var lineText = replacementMap?.ApplyTo(line.text) ?? line.text;
-
+                var lineText = replacementMap?.ApplyTo(line.Line.text) ?? line.Line.text;
                 if (typewriterEffect.enabled)
                 {
                     typewriterEffect.StartTyping(lineText, s => HandleLineComplete());    
@@ -90,14 +97,9 @@ namespace MagicWords
                     mainText.text = lineText;
                 }
                 
-                lineIndex++;   
+                ShowAvatar(line.Avatar);
                 
-                var avatar = dialogueData.GetAvatar(line.name);
-                if (avatar != null)
-                {
-                    ShowAvatar(avatar);
-                }
-                else HideAllAvatars();
+                lineIndex++; 
             }
             else HandleDialogueComplete();
         }
@@ -112,6 +114,12 @@ namespace MagicWords
 
         private void ShowAvatar(DialogueAvatarData avatarData)
         {
+            if (avatarData == null)
+            {
+                HideAllAvatars();
+                return;
+            }
+            
             HideAllAvatars(av => av.Position != avatarData.Position);
             
             var avatar = avatars.FirstOrDefault(av => av.Position == avatarData.Position);
@@ -137,9 +145,6 @@ namespace MagicWords
         private void SyncSkipButton(bool isTyping)
         {
             skipButton.interactable = isTyping;
-            
-            var icon = skipButton.transform.Find("Icon")?.GetComponent<Image>();
-            if (icon) icon.gameObject.SetActive(isTyping);
         }
     }
 }
