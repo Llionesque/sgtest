@@ -1,11 +1,9 @@
 using System;
 using System.Threading.Tasks;
 using Configuration;
-using JetBrains.Annotations;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using Util;
 
 namespace MagicWords
 {

@@ -9,7 +9,7 @@ using UnityEngine.UI;
 
 namespace AceOfShadows
 {
-	public class AceOfShadows : ExerciseController<Configuration.AceOfShadowsConfig>
+	public class AceOfShadows : ExerciseController<AceOfShadowsConfig>
 	{
 		private const int MAX_CARDS = 144;
 		
@@ -92,7 +92,7 @@ namespace AceOfShadows
 				info => CreateCardStack(info.StackType));
 			
 			sourceCardStack.CreateNextCard = cardPool.GetCard;
-			sourceCardStack.CreateCards(config.GetClampedProperty(config.CardCount, nameof(config.CardCount), 0, MAX_CARDS));
+			sourceCardStack.CreateCards(config.GetClampedProperty(config.CardCount, nameof(config.CardCount), 1, MAX_CARDS));
 		}
 
 		private CardStack CreateCardStack(Configuration.AceOfShadowsConfig.CardStackType stackType)

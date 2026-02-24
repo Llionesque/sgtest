@@ -126,10 +126,15 @@ public class MainScreen : MonoBehaviour
 
     private void ReturnToMainScreen()
     {
+        if (currentExercise)
+        {
+            currentExercise.OnEnded -= HandleCurrentExerciseEnded;
+            currentExercise = null;
+        }
+        
         gameObject.SetActive(true);
         loadingPanel.SetActive(false);
         exerciseLabelFader.FadeOut();
-        currentExercise = null;
         quitButton.gameObject.SetActive(false);
         globalBackground.gameObject.SetActive(true);
     }

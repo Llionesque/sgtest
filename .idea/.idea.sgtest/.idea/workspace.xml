@@ -5,37 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a262cdb-324f-480c-bbf8-f7b7ad7ac488" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MagicWords/MagicWordsSession.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MagicWords/MagicWordsSession.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UnitTestButton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UnitTestButton.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.sgtest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.sgtest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AceOfShadows/AceOfShadows.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AceOfShadows/AceOfShadows.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AceOfShadows/CardStack.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AceOfShadows/CardStack.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AceOfShadows/CardStack_FanOf5.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AceOfShadows/CardStack_FanOf5.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AceOfShadows/CardStack_RowOf4.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AceOfShadows/CardStack_RowOf4.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AceOfShadows/CardStack_TightCircle.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AceOfShadows/CardStack_TightCircle.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AceOfShadows/CardStack_Vertical.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AceOfShadows/CardStack_Vertical.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MagicWords/MagicWords.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MagicWords/MagicWords.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TitleScreenButton.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/TitleScreenButton.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/AceOfShadows/AceOfShadows.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AceOfShadows/AceOfShadows.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AceOfShadows/CardStack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AceOfShadows/CardStack.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ExerciseController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ExerciseController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MagicWords/DialogueBox.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MagicWords/DialogueBox.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AceOfShadows/AceOfShadowsSession.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AceOfShadows/AceOfShadowsSession.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Configuration/AceOfShadowsConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Configuration/AceOfShadowsConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Configuration/ExerciseConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Configuration/ExerciseConfig.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MagicWords/MagicWords.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MagicWords/MagicWords.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MainScreen.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MainScreen.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PhoenixFlame/PhoenixFlame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PhoenixFlame/PhoenixFlame.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Util/AsyncJsonFetcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Util/AsyncJsonFetcher.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Util/TextTypewriterEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Util/TextTypewriterEffect.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Noto/NotoColorEmoji-noflags SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Noto/NotoColorEmoji-noflags SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/MainScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/MainScreen.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UnitTestButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UnitTestButton.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
